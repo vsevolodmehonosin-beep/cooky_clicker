@@ -1,0 +1,47 @@
+body{
+    background-color: #f0e68c;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cat{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: all 0.1s ease;
+}
+
+.cat:hover{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    cursor: pointer;
+    margin: 20px auto;
+    transform: scale(105%);
+}
+
+.cat:active{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    cursor: pointer;
+    margin: 20px auto;
+    transform: rotate(10deg);
+    transform: scale(125%, 75%);
+}
+
+.pat_button{
+    background-color: #ffffff00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px auto;
+    cursor: pointer;
+}
