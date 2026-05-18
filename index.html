@@ -9,7 +9,11 @@
         <button onclick="pat_button()" class="pat_button"><img class="cat" src="cat.png" alt="cat"></button>
     </div>
     <p>PatPats: <span id="patpat-count">0</span></p>
-    <button onclick="upgrade_double_clicks()" id="upgrade-button">Upgrade (Cost: 10 patpats)</button>
+
+    <div>
+        <button onclick="upgrade_double_clicks()" id="upgrade-button" class="upgrade_button">Upgrade, +1 pat per click (Cost: <span id="upgrade-cost">10</span> patpats)</button>
+        <button onclick="auto_click()" id="auto_click_button" class="upgrade_button">Upgrade, +1 auto click every second (Cost: <span id="auto-click-cost">1000</span> patpats)</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
